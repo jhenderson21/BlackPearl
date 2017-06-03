@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930842D41EE0BAC200E19072 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930842D31EE0BAC200E19072 /* CircularImageView.swift */; };
+		930842D61EE0CE4A00E19072 /* BehaviorCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930842D51EE0CE4A00E19072 /* BehaviorCollectionViewController.swift */; };
+		930842D81EE0CE9500E19072 /* BehaviorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930842D71EE0CE9500E19072 /* BehaviorCollectionViewCell.swift */; };
+		930842DA1EE0DB5500E19072 /* behaviors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930842D91EE0DB5500E19072 /* behaviors.swift */; };
 		93BBDB331EDFB1C500550DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBDB321EDFB1C500550DBF /* AppDelegate.swift */; };
 		93BBDB351EDFB1C500550DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBDB341EDFB1C500550DBF /* ViewController.swift */; };
 		93BBDB381EDFB1C500550DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BBDB361EDFB1C500550DBF /* Main.storyboard */; };
@@ -15,6 +19,14 @@
 		93BBDB401EDFB1C500550DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93BBDB3E1EDFB1C500550DBF /* LaunchScreen.storyboard */; };
 		93BBDB4B1EDFB1C500550DBF /* BlackPearlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBDB4A1EDFB1C500550DBF /* BlackPearlTests.swift */; };
 		93BBDB561EDFB1C500550DBF /* BlackPearlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBDB551EDFB1C500550DBF /* BlackPearlUITests.swift */; };
+		93BBDB641EDFB20100550DBF /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBDB631EDFB20100550DBF /* colors.swift */; };
+		93BBDB661EDFB22000550DBF /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBDB651EDFB22000550DBF /* Buttons.swift */; };
+		93BBDB681EDFB2FB00550DBF /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBDB671EDFB2FB00550DBF /* StudentsTableViewController.swift */; };
+		93BBDB6A1EDFB31E00550DBF /* StudentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBDB691EDFB31E00550DBF /* StudentsTableViewCell.swift */; };
+		93BBDB6D1EDFB67D00550DBF /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBDB6C1EDFB67D00550DBF /* StudentDetailViewController.swift */; };
+		93BBDB6F1EDFB77E00550DBF /* CreateNewStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BBDB6E1EDFB77E00550DBF /* CreateNewStudentViewController.swift */; };
+		93D9B19A1EE0F5CE0070AFB9 /* EditStudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9B1991EE0F5CE0070AFB9 /* EditStudentViewController.swift */; };
+		93D9B19C1EE0FBF10070AFB9 /* BehaviorDefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9B19B1EE0FBF10070AFB9 /* BehaviorDefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		930842D31EE0BAC200E19072 /* CircularImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircularImageView.swift; path = ../CircularImageView.swift; sourceTree = "<group>"; };
+		930842D51EE0CE4A00E19072 /* BehaviorCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehaviorCollectionViewController.swift; sourceTree = "<group>"; };
+		930842D71EE0CE9500E19072 /* BehaviorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehaviorCollectionViewCell.swift; sourceTree = "<group>"; };
+		930842D91EE0DB5500E19072 /* behaviors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = behaviors.swift; sourceTree = "<group>"; };
 		93BBDB2F1EDFB1C500550DBF /* BlackPearl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackPearl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BBDB321EDFB1C500550DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93BBDB341EDFB1C500550DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +65,14 @@
 		93BBDB511EDFB1C500550DBF /* BlackPearlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlackPearlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93BBDB551EDFB1C500550DBF /* BlackPearlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackPearlUITests.swift; sourceTree = "<group>"; };
 		93BBDB571EDFB1C500550DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93BBDB631EDFB20100550DBF /* colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
+		93BBDB651EDFB22000550DBF /* Buttons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		93BBDB671EDFB2FB00550DBF /* StudentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
+		93BBDB691EDFB31E00550DBF /* StudentsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableViewCell.swift; sourceTree = "<group>"; };
+		93BBDB6C1EDFB67D00550DBF /* StudentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
+		93BBDB6E1EDFB77E00550DBF /* CreateNewStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewStudentViewController.swift; sourceTree = "<group>"; };
+		93D9B1991EE0F5CE0070AFB9 /* EditStudentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditStudentViewController.swift; sourceTree = "<group>"; };
+		93D9B19B1EE0FBF10070AFB9 /* BehaviorDefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BehaviorDefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +126,17 @@
 				93BBDB321EDFB1C500550DBF /* AppDelegate.swift */,
 				93BBDB341EDFB1C500550DBF /* ViewController.swift */,
 				93BBDB361EDFB1C500550DBF /* Main.storyboard */,
+				93D9B19B1EE0FBF10070AFB9 /* BehaviorDefinitionViewController.swift */,
+				93D9B1991EE0F5CE0070AFB9 /* EditStudentViewController.swift */,
+				930842D71EE0CE9500E19072 /* BehaviorCollectionViewCell.swift */,
+				930842D51EE0CE4A00E19072 /* BehaviorCollectionViewController.swift */,
+				93BBDB6E1EDFB77E00550DBF /* CreateNewStudentViewController.swift */,
+				93BBDB6C1EDFB67D00550DBF /* StudentDetailViewController.swift */,
+				93BBDB6B1EDFB32600550DBF /* TableView */,
+				93BBDB631EDFB20100550DBF /* colors.swift */,
+				93BBDB651EDFB22000550DBF /* Buttons.swift */,
+				930842D31EE0BAC200E19072 /* CircularImageView.swift */,
+				930842D91EE0DB5500E19072 /* behaviors.swift */,
 				93BBDB3C1EDFB1C500550DBF /* Assets.xcassets */,
 				93BBDB3E1EDFB1C500550DBF /* LaunchScreen.storyboard */,
 				93BBDB411EDFB1C500550DBF /* Info.plist */,
@@ -126,6 +161,15 @@
 				93BBDB571EDFB1C500550DBF /* Info.plist */,
 			);
 			path = BlackPearlUITests;
+			sourceTree = "<group>";
+		};
+		93BBDB6B1EDFB32600550DBF /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				93BBDB691EDFB31E00550DBF /* StudentsTableViewCell.swift */,
+				93BBDB671EDFB2FB00550DBF /* StudentsTableViewController.swift */,
+			);
+			name = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +309,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930842D81EE0CE9500E19072 /* BehaviorCollectionViewCell.swift in Sources */,
+				93BBDB661EDFB22000550DBF /* Buttons.swift in Sources */,
 				93BBDB351EDFB1C500550DBF /* ViewController.swift in Sources */,
+				930842DA1EE0DB5500E19072 /* behaviors.swift in Sources */,
+				93D9B19C1EE0FBF10070AFB9 /* BehaviorDefinitionViewController.swift in Sources */,
+				93BBDB6A1EDFB31E00550DBF /* StudentsTableViewCell.swift in Sources */,
+				930842D61EE0CE4A00E19072 /* BehaviorCollectionViewController.swift in Sources */,
+				93BBDB641EDFB20100550DBF /* colors.swift in Sources */,
+				93BBDB6F1EDFB77E00550DBF /* CreateNewStudentViewController.swift in Sources */,
+				930842D41EE0BAC200E19072 /* CircularImageView.swift in Sources */,
+				93BBDB681EDFB2FB00550DBF /* StudentsTableViewController.swift in Sources */,
+				93D9B19A1EE0F5CE0070AFB9 /* EditStudentViewController.swift in Sources */,
 				93BBDB331EDFB1C500550DBF /* AppDelegate.swift in Sources */,
 				93BBDB3B1EDFB1C500550DBF /* BlackPearl.xcdatamodeld in Sources */,
+				93BBDB6D1EDFB67D00550DBF /* StudentDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +574,7 @@
 				93BBDB5C1EDFB1C500550DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93BBDB5D1EDFB1C500550DBF /* Build configuration list for PBXNativeTarget "BlackPearlTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +583,7 @@
 				93BBDB5F1EDFB1C500550DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93BBDB601EDFB1C500550DBF /* Build configuration list for PBXNativeTarget "BlackPearlUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +592,7 @@
 				93BBDB621EDFB1C500550DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
